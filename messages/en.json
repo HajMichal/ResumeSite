@@ -2,9 +2,16 @@
     "Home": {
         "Navigation": {
             "home": "Home",
-            "resume": "Resume",
+            "about": "About me",
+            "skills": "Skills",
             "portfolio": "Portfolio",
+            "resume": "Resume",
             "contact": "Contact"
+        },
+        "Header": {
+            "title": "Good to see you!",
+            "iam": "I am ",
+            "description": "Full Stack developer specializing mainly in JavaScript technology"
         }
     }
 }

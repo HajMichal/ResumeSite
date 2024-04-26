@@ -27,7 +27,7 @@ function Slider({
   }, [current, imagesUrls]);
 
   return (
-    <div className="overflow-hidden relative max-w-[540px]">
+    <div className="overflow-hidden relative max-w-[610px] mt-28">
       <div
         className={`flex transition ease-out duration-300 `}
         style={{
@@ -38,10 +38,11 @@ function Slider({
           <Image
             key={index}
             src={url}
-            width={1080}
-            height={1920}
+            width={810}
+            height={810}
             alt="mainPhoto"
             loading="eager"
+            className="h-[610px] w-[610px]"
           />
         ))}
       </div>
@@ -62,13 +63,13 @@ function Slider({
         </div>
       )}
       {withIndicators && (
-        <div className="absolute -mt-[355px] flex w-full justify-center gap-4">
+        <div className="absolute -mt-20 flex w-full justify-center gap-4">
           {imagesUrls?.map((url, index) => (
             <button
               key={index}
               onClick={() => setCurrent(index)}
-              className={`w-5 h-5 bg-white rounded-full opacity-25 duration-300 ${
-                index === current && "opacity-50"
+              className={`w-5 h-2 bg-white rounded-full opacity-15 duration-300 ${
+                index === current && "opacity-30"
               }`}
             />
           ))}

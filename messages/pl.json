@@ -2,9 +2,16 @@
     "Home": {
         "Navigation": {
             "home": "Home",
-            "resume": "Dokumenty",
+            "about": "O mnie",
+            "skills": "Umiejętności",
             "portfolio": "Portfolio",
+            "resume": "Dokumenty",
             "contact": "Kontakt"
+        },
+        "Header": {
+            "title": "Miło cię widzieć!",
+            "iam": "Nazywam się ",
+            "description": "jestem Full Stack developerem specjalizującym się głównie w technologiach JavaScript`owych"
         }
     }
 }

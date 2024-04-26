@@ -1,10 +1,10 @@
 import "../../globals.css";
 import "@mantine/core/styles.css";
-import "@mantine/carousel/styles.css";
 
 import type { Metadata } from "next";
 import { Jersey_15, Kanit } from "next/font/google";
 import { MantineProvider } from "@mantine/core";
+import Drawer from "@/components/Drawer";
 
 const jersey = Jersey_15({
   subsets: ["latin"],
@@ -24,13 +24,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="en">
-      <body className={`${jersey.variable} ${kanit.variable}`}>
-        <MantineProvider>{children}</MantineProvider>
+    <html lang={locale}>
+      <body
+        className={`${jersey.variable} ${kanit.variable} text-white font-kanit bg-background laptop:overflow-x-hidden`}
+      >
+        <MantineProvider>
+          <div>{children}</div>
+        </MantineProvider>
       </body>
     </html>
   );

@@ -1,15 +1,17 @@
 import Drawer from "@/components/Drawer";
+import Header from "@/components/Header";
 import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
-    <main className="h-full w-screen overflow-hidden bg-background tablet:h-screen tablet:flex ">
+    <main className="h-full flex tablet:h-screen">
       <Drawer />
-      <div className="-mt-96 tablet:mt-0">
+      <div className="laptop:flex justify-center w-full">
         <Slider
           imagesUrls={["/myPhotos/main.png", "/myPhotos/subMain.png"]}
           withIndicators
         />
+        <Header />
       </div>
     </main>
   );

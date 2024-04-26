@@ -4,11 +4,18 @@ import { Menu } from "@mantine/core";
 import { IconPlanet } from "@tabler/icons-react";
 import { useRouter } from "next/navigation";
 
-function Dropdown() {
+interface DropdownProps {
+  isAbsolute?: boolean;
+}
+function Dropdown({ isAbsolute = false }: DropdownProps) {
   const router = useRouter();
 
   return (
-    <div className="cursor-pointer absolute right-5 top-1">
+    <div
+      className={`flex cursor-pointer mr-2 items-center ${
+        isAbsolute && "absolute top-1 right-0"
+      }`}
+    >
       <Menu withArrow>
         <Menu.Target>
           <IconPlanet
@@ -22,7 +29,7 @@ function Dropdown() {
             leftSection={"🇵🇱"}
             color="white"
             onClick={() => {
-              router.push("/pl");
+              router.replace("/pl");
             }}
           >
             POLSKI
@@ -31,7 +38,7 @@ function Dropdown() {
             leftSection={"🏴󠁧󠁢󠁥󠁮󠁧󠁿"}
             color="white"
             onClick={() => {
-              router.push("/en");
+              router.replace("/en");
             }}
           >
             ENGLISH

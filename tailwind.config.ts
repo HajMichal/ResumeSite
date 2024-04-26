@@ -11,6 +11,7 @@ const config: Config = {
       background: "#101010",
       secondaryBackground: "#1d1d1d",
       white: "#ffff",
+      brand: "#82fbac",
     },
     extend: {
       fontFamily: {
@@ -21,6 +22,9 @@ const config: Config = {
         tablet: "700px",
         laptop: "1024px",
         desktop: "1380px",
+      },
+      backgroundImage: {
+        parallax: 'url("/landscape/parallax.jpg")',
       },
     },
   },
