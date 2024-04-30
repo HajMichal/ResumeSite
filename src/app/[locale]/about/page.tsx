@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 
 function About() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <div className="mb-32 flex flex-col items-center">
         <ImageWithDesc
@@ -66,7 +66,7 @@ function About() {
         "
         />
       </div>
-    </>
+    </div>
   );
 }
 export default About;

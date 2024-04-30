@@ -4,7 +4,7 @@ import "@mantine/core/styles.css";
 import type { Metadata } from "next";
 import { Jersey_15, Kanit } from "next/font/google";
 import { MantineProvider } from "@mantine/core";
-import Drawer from "@/components/Drawer";
+import Sidebar from "@/components/Sidebar";
 
 const jersey = Jersey_15({
   subsets: ["latin"],
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${jersey.variable} ${kanit.variable} text-white font-kanit bg-background laptop:overflow-x-hidden`}
+        className={`${jersey.variable} ${kanit.variable} text-white font-kanit bg-background overflow-x-hidden`}
       >
         <MantineProvider>
           <div>{children}</div>

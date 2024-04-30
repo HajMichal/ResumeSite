@@ -1,5 +1,6 @@
-import { useTranslations } from "next-intl";
 import Dropdown from "./Dropdown";
+import dynamic from "next/dynamic";
+
 import {
   IconSofa,
   IconFileCv,
@@ -9,6 +10,26 @@ import {
   IconDeviceLaptop,
 } from "@tabler/icons-react";
 import { Link } from "@/navigation";
+
+const DesktopNavigation = dynamic(() => import("./desktop/Navigation"));
+const MobileNavigation = dynamic(() => import("./mobile/Navigation"));
+
+function Sidebar() {
+  return (
+    <>
+      <div className="text-xl h-full flex flex-col gap-[20%] w-full tablet:min-h-screen tablet:w-44">
+        <Link className="text-4xl font-jersey tracking-wide p-2" href={"/"}>
+          Michal Haj
+        </Link>
+        <Dropdown isAbsolute />
+        <DesktopNavigation />
+        <MobileNavigation />
+      </div>
+    </>
+  );
+}
+
+export default Sidebar;
 
 export const navOptions = [
   {
@@ -44,7 +65,7 @@ export const navOptions = [
   },
   {
     title: "resume",
-    href: "/resume",
+    href: "/documents",
     icon: (
       <IconFileCv className="group-hover:text-brand duration-300" stroke={2} />
     ),
@@ -60,28 +81,3 @@ export const navOptions = [
     ),
   },
 ];
-
-function Drawer() {
-  const t = useTranslations("Home.Navigation");
-  return (
-    <>
-      <div className="text-xl h-full min-h-screen w-44 flex flex-col gap-[20%]">
-        <div className="text-4xl font-jersey tracking-wide p-2">Michal Haj</div>
-        <Dropdown isAbsolute />
-        <div className="grid gap-1 justify-center w-44 tracking-wide">
-          {navOptions.map((navOption, index) => (
-            <Link
-              key={index}
-              href={navOption.href}
-              className="flex group items-center gap-2 px-12 py-2 duration-300 hover:translate-x-3 ease-in-out hover:cursor-pointer hover:bg-secondaryBackground"
-            >
-              {navOption.icon}
-              <p className="whitespace-nowrap">{t(navOption.title)}</p>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </>
-  );
-}
-export default Drawer;

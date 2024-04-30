@@ -27,7 +27,7 @@ function Slider({
   }, [current, imagesUrls]);
 
   return (
-    <div className="overflow-hidden relative max-w-[610px] mt-28">
+    <div className="overflow-hidden relative max-w-[610px] desktop:order-first">
       <div
         className={`flex transition ease-out duration-300 `}
         style={{

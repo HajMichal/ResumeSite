@@ -1,4 +1,4 @@
-import Drawer from "@/components/Drawer";
+import Sidebar from "@/components/Sidebar";
 import SkillsTile from "@/components/SkillsTile";
 
 import {
@@ -28,9 +28,9 @@ import { NestJsIcon } from "@/icons/nestjs";
 
 function Skills() {
   return (
-    <div className="w-screen h-screen tablet:flex  tablet:overflow-hidden">
-      <Drawer />
-      <div className="w-full flex justify-center items-center">
+    <div className="w-screen tablet:h-screen tablet:flex tablet:overflow-hidden">
+      <Sidebar />
+      <div className="w-full flex justify-center items-center mt-10">
         <div className="w-full h-full tablet:w-[80vw] tablet:h-[90vh] grid grid-rows-4 tablet:grid-cols-2 tablet:grid-rows-2">
           <SkillsTile title="SKILLS" borderType="border-r  border-b">
             <>
