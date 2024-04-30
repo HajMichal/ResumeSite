@@ -15,6 +15,10 @@ import { AwsIcon } from "./aws";
 import { NextJsIcon } from "./nextjs";
 import { ExpressIcon } from "./express";
 import { FastApiIcon } from "./fastapi";
+import { NodeJsIcon } from "./nodejs";
+import { PostmanIcon } from "./postman";
+import { GitIcon } from "./git";
+import { GithubIcon } from "./github";
 
 export {
   JavaScriptIcon,
@@ -34,4 +38,8 @@ export {
   NextJsIcon,
   ExpressIcon,
   FastApiIcon,
+  NodeJsIcon,
+  PostmanIcon,
+  GitIcon,
+  GithubIcon,
 };
