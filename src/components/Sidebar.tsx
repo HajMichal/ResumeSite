@@ -41,7 +41,7 @@ export const navOptions = [
   },
   {
     title: "about",
-    href: "/about",
+    href: "/info/about",
     icon: (
       <IconDeviceLaptop
         className="group-hover:text-brand duration-300"
@@ -51,28 +51,28 @@ export const navOptions = [
   },
   {
     title: "skills",
-    href: "/skills",
+    href: "/info/skills",
     icon: (
       <IconBolt className="group-hover:text-brand duration-300" stroke={2} />
     ),
   },
   {
     title: "portfolio",
-    href: "/portfolio",
+    href: "/info/portfolio",
     icon: (
       <IconBrush className="group-hover:text-brand duration-300" stroke={2} />
     ),
   },
   {
     title: "resume",
-    href: "/documents",
+    href: "/info/documents",
     icon: (
       <IconFileCv className="group-hover:text-brand duration-300" stroke={2} />
     ),
   },
   {
     title: "contact",
-    href: "/contact",
+    href: "/info/contact",
     icon: (
       <IconMailHeart
         className="group-hover:text-brand duration-300"
