@@ -15,42 +15,42 @@ const ProjectsData = [
   {
     id: 0,
     title: "Befama",
-    shortDesc: "BefamaShortDesc",
+    shortDesc: "Befama.shortDesc",
     date: "15.11.2022 - 30.12.2022",
     icon: <IconBuildingFactory size={30} />,
   },
   {
     id: 1,
     title: "ChatApp",
-    shortDesc: "ChatAppShortDesc",
+    shortDesc: "Chatapp.shortDesc",
     date: "1.02.2023 - 30.04.2023",
     icon: <IconBrandWechat size={30} />,
   },
   {
     id: 2,
     title: "Selleo",
-    shortDesc: "SelleoShortDesc",
+    shortDesc: "Selleo.shortDesc",
     date: "1.07.2023 - 31.07.2023",
     icon: <IconBrandReact size={30} />,
   },
   {
     id: 3,
     title: "IdeaRem / Przyjazna Natura",
-    shortDesc: "CalculatorShortDesc",
+    shortDesc: "Calculator.shortDesc",
     date: "1.08.2023 - current",
     icon: <IconCalculator size={30} />,
   },
   {
     id: 4,
     title: "RenovationAgency",
-    shortDesc: "RenovationAgencyShortDesc",
+    shortDesc: "Revan.shortDesc",
     date: "10.02.2024 - current",
     icon: <IconHomeCog size={30} />,
   },
   {
     id: 5,
     title: "ElearningPlatform - Przyjazna Natura",
-    shortDesc: "ELearnShortDesc",
+    shortDesc: "Elearn.shortDesc",
     date: "5.05.2024 - current",
     icon: <IconBook size={30} />,
   },
@@ -60,7 +60,7 @@ function TimeLineComponent() {
   const [active, setActive] = useState(0);
 
   return (
-    <div className="h-full">
+    <div>
       <Timeline
         active={active}
         bulletSize={50}

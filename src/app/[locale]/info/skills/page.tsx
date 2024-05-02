@@ -22,6 +22,7 @@ import {
   PostmanIcon,
   GitIcon,
   GithubIcon,
+  FramerMotionIcon,
 } from "@/icons";
 import { NestJsIcon } from "@/icons/nestjs";
 
@@ -47,6 +48,7 @@ function Skills() {
             <SassIcon />
             <TailwindIcon />
             <NextJsIcon />
+            <FramerMotionIcon />
           </>
         </SkillsTile>
         <SkillsTile title="SERVICES & TOOLS" borderType="border-r  border-t">

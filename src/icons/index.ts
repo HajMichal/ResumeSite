@@ -19,6 +19,7 @@ import { NodeJsIcon } from "./nodejs";
 import { PostmanIcon } from "./postman";
 import { GitIcon } from "./git";
 import { GithubIcon } from "./github";
+import { FramerMotionIcon } from "./framermotion";
 
 export {
   JavaScriptIcon,
@@ -42,4 +43,5 @@ export {
   PostmanIcon,
   GitIcon,
   GithubIcon,
+  FramerMotionIcon,
 };

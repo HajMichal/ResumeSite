@@ -16,12 +16,59 @@
     },
     "Portfolio": {
         "Projects": {
-            "BefamaShortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
-            "ChatAppShortDesc": "Aplikacja oferująca chat w czasie rzeczywistym",
-            "SelleoShortDesc": "Praktyki jako React Developer",
-            "CalculatorShortDesc": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
-            "RenovationAgencyShortDesc": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
-            "ELearnShortDesc": "Platforma e-learningowa dla handlowców"
+            "Befama": {
+                "title": "Strona wizytówka dla firmy z branży włókienniczej",
+                "shortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
+                "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
+                "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
+                "whatLearn": {
+                    "text": "Projekt ten jest kamieniem milowym w mojej karierze programisty. Dodał mi wiatru w skrzydła, sprawił, że uwierzyłem w swoje umiejętności, a przy okazji mogłem współpracować z świetnymi ludźmi.",
+                    "whatLearnPoints": {
+                        "first": "jak pozycjonować strony w internecie (podstawy SEO)",
+                        "second": "mechaniki i18n",
+                        "third": "jak tworzyć responsywne strony",
+                        "fourth": "korzystania z TailwindCSS"
+                    }
+                }
+            },
+            "Chatapp": {
+                "shortDesc": "Aplikacja oferująca chat w czasie rzeczywistym",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Selleo": {
+                "shortDesc": "Praktyki jako React Developer",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Calculator": {
+                "shortDesc": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Revan": {
+                "shortDesc": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Elearn": {
+                "shortDesc": "Platforma e-learningowa dla handlowców",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            }
+        },
+        "General": {
+            "desc": "Opis",
+            "challange": "Wyzwanie",
+            "techStack": "Tech Stack",
+            "whatLearn": "Czego się nauczyłem",
+            "iveLearned": "Nauczyłem się:"
         }
+
     }
 }

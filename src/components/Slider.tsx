@@ -30,7 +30,7 @@ function Slider({
 
   return (
     <div
-      className={`overflow-hidden relative desktop:order-first ${className}`}
+      className={`relative overflow-hidden desktop:order-first ${className}`}
     >
       <div
         className={`flex transition ease-out duration-300`}
@@ -50,7 +50,7 @@ function Slider({
         ))}
       </div>
       {withControls && (
-        <div className="absolute flex w-full justify-between items-center text-brand top-[50%] gap-4  opacity-85">
+        <div className="absolute flex w-full justify-between items-center text-brand top-[50%] gap-4 opacity-85 laptop:top-auto laptop:-mt-52">
           <IconChevronLeft
             className="w-9 h-9 cursor-pointer"
             stroke={2}

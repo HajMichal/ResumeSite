@@ -16,12 +16,48 @@
     },
     "Portfolio": {
         "Projects": {
-            "BefamaShortDesc": "",
-            "ChatAppShortDesc": "",
-            "SelleoShortDesc": "",
-            "CalculatorShortDesc": "",
-            "RenovationAgencyShortDesc": "",
-            "ELearnShortDesc": ""
+            "Befama": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Chatapp": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Selleo": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Calculator": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Revan": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            },
+            "Elearn": {
+                "shortDesc": "",
+                "desc": "",
+                "challange": "",
+                "whatLearn": ""
+            }
+        },
+        "General": {
+            "desc": "Description",
+            "challange": "Challange",
+            "techStack": "Tech Stack",
+            "whatLearn": "What I've learned"
         }
     }
 }
