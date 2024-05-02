@@ -2,15 +2,17 @@
 
 import Image from "next/image";
 import { useCallback, useState } from "react";
-import { IconCircleArrowLeft, IconCircleArrowRight } from "@tabler/icons-react";
+import { IconChevronRight, IconChevronLeft } from "@tabler/icons-react";
 
 interface SliderProps {
   imagesUrls: string[];
+  className: string;
   withControls?: boolean;
   withIndicators?: boolean;
 }
 function Slider({
   imagesUrls,
+  className,
   withControls = false,
   withIndicators = false,
 }: SliderProps) {
@@ -27,9 +29,11 @@ function Slider({
   }, [current, imagesUrls]);
 
   return (
-    <div className="overflow-hidden relative max-w-[610px] desktop:order-first">
+    <div
+      className={`overflow-hidden relative desktop:order-first ${className}`}
+    >
       <div
-        className={`flex transition ease-out duration-300 `}
+        className={`flex transition ease-out duration-300`}
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
@@ -42,21 +46,18 @@ function Slider({
             height={810}
             alt="mainPhoto"
             loading="eager"
-            className="h-[610px] w-[610px]"
           />
         ))}
       </div>
       {withControls && (
-        <div className="absolute flex w-full justify-between px-12 items-center gap-4 top-96 opacity-45">
-          <IconCircleArrowLeft
-            className="w-9 h-9"
-            color="white"
+        <div className="absolute flex w-full justify-between items-center text-brand top-[50%] gap-4  opacity-85">
+          <IconChevronLeft
+            className="w-9 h-9 cursor-pointer"
             stroke={2}
             onClick={previousSlide}
           />
-          <IconCircleArrowRight
-            className="w-9 h-9"
-            color="white"
+          <IconChevronRight
+            className="w-9 h-9 cursor-pointer"
             stroke={2}
             onClick={nextSlide}
           />

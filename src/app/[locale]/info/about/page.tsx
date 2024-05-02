@@ -1,5 +1,4 @@
 import ImageWithDesc from "@/components/ImageWithDesc";
-import Navbar from "@/components/Navbar";
 
 function About() {
   return (

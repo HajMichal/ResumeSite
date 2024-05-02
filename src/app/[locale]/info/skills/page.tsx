@@ -1,4 +1,3 @@
-import Sidebar from "@/components/Sidebar";
 import SkillsTile from "@/components/SkillsTile";
 
 import {

@@ -10,6 +10,7 @@ export default function Home() {
         <Header />
         <Slider
           imagesUrls={["/myPhotos/main.png", "/myPhotos/subMain.png"]}
+          className="max-w-[540px]"
           withIndicators
         />
       </div>

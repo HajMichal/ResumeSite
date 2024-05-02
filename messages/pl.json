@@ -13,5 +13,15 @@
             "iam": "Nazywam się ",
             "description": "jestem Full Stack developerem specjalizującym się głównie w technologiach JavaScript`owych"
         }
+    },
+    "Portfolio": {
+        "Projects": {
+            "BefamaShortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
+            "ChatAppShortDesc": "Aplikacja oferująca chat w czasie rzeczywistym",
+            "SelleoShortDesc": "Praktyki jako React Developer",
+            "CalculatorShortDesc": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
+            "RenovationAgencyShortDesc": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
+            "ELearnShortDesc": "Platforma e-learningowa dla handlowców"
+        }
     }
 }

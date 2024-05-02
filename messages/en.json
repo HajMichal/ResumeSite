@@ -13,5 +13,15 @@
             "iam": "I am ",
             "description": "Full Stack developer specializing mainly in JavaScript technology"
         }
+    },
+    "Portfolio": {
+        "Projects": {
+            "BefamaShortDesc": "",
+            "ChatAppShortDesc": "",
+            "SelleoShortDesc": "",
+            "CalculatorShortDesc": "",
+            "RenovationAgencyShortDesc": "",
+            "ELearnShortDesc": ""
+        }
     }
 }
