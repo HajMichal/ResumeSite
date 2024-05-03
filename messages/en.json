@@ -17,37 +17,46 @@
     "Portfolio": {
         "Projects": {
             "Befama": {
-                "shortDesc": "",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
+                "title": "A 'showcase' type website a company in the fiber industry",
+                "shortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
+                "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
+                "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
+                "whatLearn": {
+                    "text": "Projekt ten jest kamieniem milowym w mojej karierze programisty. Dodał mi wiatru w skrzydła, sprawił, że uwierzyłem w swoje umiejętności, a przy okazji mogłem współpracować z świetnymi ludźmi.",
+                    "whatLearnPoints": {
+                        "first": "jak pozycjonować strony w internecie (podstawy SEO)",
+                        "second": "mechaniki i18n",
+                        "third": "jak tworzyć responsywne strony",
+                        "fourth": "korzystania z TailwindCSS"
+                    }
+                }
             },
             "Chatapp": {
-                "shortDesc": "",
+                "shortDesc": "Application for real time chat",
                 "desc": "",
                 "challange": "",
                 "whatLearn": ""
             },
             "Selleo": {
-                "shortDesc": "",
+                "shortDesc": "Intership as React Developer",
                 "desc": "",
                 "challange": "",
                 "whatLearn": ""
             },
             "Calculator": {
-                "shortDesc": "",
+                "shortDesc": "Commercial calculator project for pricing a RES installtions",
                 "desc": "",
                 "challange": "",
                 "whatLearn": ""
             },
             "Revan": {
-                "shortDesc": "",
+                "shortDesc": "Web service with advertisements of buildings to renovate",
                 "desc": "",
                 "challange": "",
                 "whatLearn": ""
             },
             "Elearn": {
-                "shortDesc": "",
+                "shortDesc": "E-learning platform for salesmans",
                 "desc": "",
                 "challange": "",
                 "whatLearn": ""
@@ -57,7 +66,8 @@
             "desc": "Description",
             "challange": "Challange",
             "techStack": "Tech Stack",
-            "whatLearn": "What I've learned"
+            "whatLearn": "What I've learned",
+            "iveLearned": "I've leanred:"
         }
     }
 }

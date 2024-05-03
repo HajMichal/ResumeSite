@@ -18,7 +18,6 @@
         "Projects": {
             "Befama": {
                 "title": "Strona wizytówka dla firmy z branży włókienniczej",
-                "shortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
                 "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
                 "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
                 "whatLearn": {
@@ -32,34 +31,59 @@
                 }
             },
             "Chatapp": {
-                "shortDesc": "Aplikacja oferująca chat w czasie rzeczywistym",
+                "title": "Aplikacja oferująca chat w czasie rzeczywistym",
                 "desc": "",
                 "challange": "",
-                "whatLearn": ""
+                "whatLearn": {
+                    "first": "",
+                    "second": "",
+                    "third": "",
+                    "fourth": ""
+                }
             },
             "Selleo": {
-                "shortDesc": "Praktyki jako React Developer",
+                "title": "Praktyki jako React Developer",
                 "desc": "",
                 "challange": "",
-                "whatLearn": ""
+                "whatLearn": {
+                    "first": "",
+                    "second": "",
+                    "third": "",
+                    "fourth": ""
+                }
             },
             "Calculator": {
-                "shortDesc": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
+                "title": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
                 "desc": "",
                 "challange": "",
-                "whatLearn": ""
+                "whatLearn": {
+                    "first": "",
+                    "second": "",
+                    "third": "",
+                    "fourth": ""
+                }
             },
             "Revan": {
-                "shortDesc": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
+                "title": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
                 "desc": "",
                 "challange": "",
-                "whatLearn": ""
+                "whatLearn": {
+                    "first": "",
+                    "second": "",
+                    "third": "",
+                    "fourth": ""
+                }
             },
             "Elearn": {
-                "shortDesc": "Platforma e-learningowa dla handlowców",
+                "title": "Platforma e-learningowa dla handlowców",
                 "desc": "",
                 "challange": "",
-                "whatLearn": ""
+                "whatLearn": {
+                    "first": "",
+                    "second": "",
+                    "third": "",
+                    "fourth": ""
+                }
             }
         },
         "General": {

@@ -1,4 +1,3 @@
-"use client";
 import {
   IconBrandWechat,
   IconBuildingFactory,
@@ -9,55 +8,58 @@ import {
 } from "@tabler/icons-react";
 import { Timeline, Text } from "@mantine/core";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 
 const ProjectsData = [
   {
     id: 0,
     title: "Befama",
-    shortDesc: "Befama.shortDesc",
+    shortDesc: "Befama.title",
     date: "15.11.2022 - 30.12.2022",
     icon: <IconBuildingFactory size={30} />,
   },
   {
     id: 1,
     title: "ChatApp",
-    shortDesc: "Chatapp.shortDesc",
+    shortDesc: "Chatapp.title",
     date: "1.02.2023 - 30.04.2023",
     icon: <IconBrandWechat size={30} />,
   },
   {
     id: 2,
     title: "Selleo",
-    shortDesc: "Selleo.shortDesc",
+    shortDesc: "Selleo.title",
     date: "1.07.2023 - 31.07.2023",
     icon: <IconBrandReact size={30} />,
   },
   {
     id: 3,
     title: "IdeaRem / Przyjazna Natura",
-    shortDesc: "Calculator.shortDesc",
+    shortDesc: "Calculator.title",
     date: "1.08.2023 - current",
     icon: <IconCalculator size={30} />,
   },
   {
     id: 4,
     title: "RenovationAgency",
-    shortDesc: "Revan.shortDesc",
+    shortDesc: "Revan.title",
     date: "10.02.2024 - current",
     icon: <IconHomeCog size={30} />,
   },
   {
     id: 5,
     title: "ElearningPlatform - Przyjazna Natura",
-    shortDesc: "Elearn.shortDesc",
+    shortDesc: "Elearn.title",
     date: "5.05.2024 - current",
     icon: <IconBook size={30} />,
   },
 ];
-function TimeLineComponent() {
+interface TimeLineComponentProps {
+  active: number;
+  setActive: Dispatch<SetStateAction<number>>;
+}
+function TimeLineComponent({ active, setActive }: TimeLineComponentProps) {
   const t = useTranslations("Portfolio.Projects");
-  const [active, setActive] = useState(0);
 
   return (
     <div>
