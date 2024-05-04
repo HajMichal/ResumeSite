@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { Befama } from "./projects";
+import Loading from "./Loading";
 
 interface AllProjectsProps {
   active: number;
@@ -7,15 +8,26 @@ interface AllProjectsProps {
 
 //
 // [TODO]:
-//         add suspense to slider in project
-//         fill json message files
 //         translate to eng
 
-const Chatapp = dynamic(() => import("./projects/Chatapp"));
-const ElearningPlatform = dynamic(() => import("./projects/ElearningPlatform"));
-const IdeaRem = dynamic(() => import("./projects/IdeaRem"));
-const Revan = dynamic(() => import("./projects/Revan"));
-const Selleo = dynamic(() => import("./projects/Selleo"));
+const Chatapp = dynamic(() => import("./projects/Chatapp"), {
+  loading: () => <Loading />,
+});
+const ElearningPlatform = dynamic(
+  () => import("./projects/ElearningPlatform"),
+  {
+    loading: () => <Loading />,
+  }
+);
+const IdeaRem = dynamic(() => import("./projects/IdeaRem"), {
+  loading: () => <Loading />,
+});
+const Revan = dynamic(() => import("./projects/Revan"), {
+  loading: () => <Loading />,
+});
+const Selleo = dynamic(() => import("./projects/Selleo"), {
+  loading: () => <Loading />,
+});
 
 function AllProjects({ active }: AllProjectsProps) {
   return (

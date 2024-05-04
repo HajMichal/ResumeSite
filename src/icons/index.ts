@@ -21,6 +21,7 @@ import { GitIcon } from "./git";
 import { GithubIcon } from "./github";
 import { FramerMotionIcon } from "./framermotion";
 import { VscIcon } from "./vscode";
+import { ReactPureIcon } from "./react-pure";
 
 export {
   JavaScriptIcon,
@@ -46,4 +47,5 @@ export {
   GithubIcon,
   FramerMotionIcon,
   VscIcon,
+  ReactPureIcon,
 };
