@@ -9,7 +9,10 @@ import {
   ExpressIcon,
   ReactRouterIcon,
   PrismaIcon,
+  SassIcon,
+  NodeJsIcon,
 } from "@/icons";
+import { NestJsIcon } from "@/icons/nestjs";
 
 const Slider = dynamic(() => import("@/components/Slider"));
 
@@ -33,12 +36,12 @@ function Revan() {
         challange="Projects.Revan.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
             <TypeScriptIcon />
-            <FramerMotionIcon />
-            <TailwindIcon />
+            <ReactIcon />
             <ReactRouterIcon />
-            <ExpressIcon />
+            <SassIcon />
+            <NodeJsIcon />
+            <NestJsIcon />
             <PrismaIcon />
           </div>
         }
@@ -47,7 +50,6 @@ function Revan() {
           "Projects.Revan.whatLearn.whatLearnPoints.first",
           "Projects.Revan.whatLearn.whatLearnPoints.second",
           "Projects.Revan.whatLearn.whatLearnPoints.third",
-          "Projects.Revan.whatLearn.whatLearnPoints.fourth",
         ]}
       />
     </>

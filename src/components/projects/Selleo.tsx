@@ -6,6 +6,7 @@ import {
   NextJsIcon,
   FramerMotionIcon,
   TailwindIcon,
+  GitIcon,
 } from "@/icons";
 
 const Slider = dynamic(() => import("@/components/Slider"));
@@ -23,19 +24,17 @@ function Selleo() {
         challange="Projects.Selleo.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
             <TypeScriptIcon />
-            <NextJsIcon />
+            <ReactIcon />
             <FramerMotionIcon />
             <TailwindIcon />
+            <GitIcon />
           </div>
         }
         whatLearnText="Projects.Selleo.whatLearn.text"
         whatLearnPoints={[
           "Projects.Selleo.whatLearn.whatLearnPoints.first",
           "Projects.Selleo.whatLearn.whatLearnPoints.second",
-          "Projects.Selleo.whatLearn.whatLearnPoints.third",
-          "Projects.Selleo.whatLearn.whatLearnPoints.fourth",
         ]}
       />
     </>

@@ -1,15 +1,5 @@
 import dynamic from "next/dynamic";
 import ProjectContent from "../ProjectContent";
-import {
-  ReactIcon,
-  TypeScriptIcon,
-  NextJsIcon,
-  FramerMotionIcon,
-  TailwindIcon,
-  ExpressIcon,
-  ReactRouterIcon,
-  PrismaIcon,
-} from "@/icons";
 
 const Slider = dynamic(() => import("@/components/Slider"));
 
@@ -29,22 +19,24 @@ function ElearningPlatform() {
         challange="Projects.Elearn.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
+            {/* <ReactIcon />
             <TypeScriptIcon />
             <FramerMotionIcon />
             <TailwindIcon />
             <ReactRouterIcon />
             <ExpressIcon />
-            <PrismaIcon />
+            <PrismaIcon /> */}
           </div>
         }
         whatLearnText="Projects.Elearn.whatLearn.text"
-        whatLearnPoints={[
-          "Projects.Elearn.whatLearn.whatLearnPoints.first",
-          "Projects.Elearn.whatLearn.whatLearnPoints.second",
-          "Projects.Elearn.whatLearn.whatLearnPoints.third",
-          "Projects.Elearn.whatLearn.whatLearnPoints.fourth",
-        ]}
+        whatLearnPoints={
+          [
+            // "Projects.Elearn.whatLearn.whatLearnPoints.first",
+            // "Projects.Elearn.whatLearn.whatLearnPoints.second",
+            // "Projects.Elearn.whatLearn.whatLearnPoints.third",
+            // "Projects.Elearn.whatLearn.whatLearnPoints.fourth",
+          ]
+        }
       />
     </>
   );

@@ -23,6 +23,7 @@ import {
   GitIcon,
   GithubIcon,
   FramerMotionIcon,
+  VscIcon,
 } from "@/icons";
 import { NestJsIcon } from "@/icons/nestjs";
 
@@ -30,7 +31,7 @@ function Skills() {
   return (
     <div className="w-full flex justify-center items-center mt-10">
       <div className="w-full h-full tablet:w-[80vw] tablet:h-[90vh] grid grid-rows-4 tablet:grid-cols-2 tablet:grid-rows-2">
-        <SkillsTile title="SKILLS" borderType="border-r  border-b">
+        <SkillsTile title="TECHNOLOGIES" borderType="border-r  border-b">
           <>
             <JavaScriptIcon />
             <TypeScriptIcon />
@@ -57,6 +58,7 @@ function Skills() {
             <PostmanIcon />
             <GitIcon />
             <GithubIcon />
+            <VscIcon />
           </>
         </SkillsTile>
         <SkillsTile title="BACKEND" borderType="border-l  border-t">

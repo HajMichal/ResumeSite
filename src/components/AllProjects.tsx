@@ -1,21 +1,21 @@
-import {
-  Befama,
-  Chatapp,
-  ElearningPlatform,
-  IdeaRem,
-  Revan,
-  Selleo,
-} from "./projects";
+import dynamic from "next/dynamic";
+import { Befama } from "./projects";
 
 interface AllProjectsProps {
   active: number;
 }
 
 //
-// [TODO]: dynamic imports each project
+// [TODO]:
 //         add suspense to slider in project
-//         change icons
 //         fill json message files
+//         translate to eng
+
+const Chatapp = dynamic(() => import("./projects/Chatapp"));
+const ElearningPlatform = dynamic(() => import("./projects/ElearningPlatform"));
+const IdeaRem = dynamic(() => import("./projects/IdeaRem"));
+const Revan = dynamic(() => import("./projects/Revan"));
+const Selleo = dynamic(() => import("./projects/Selleo"));
 
 function AllProjects({ active }: AllProjectsProps) {
   return (

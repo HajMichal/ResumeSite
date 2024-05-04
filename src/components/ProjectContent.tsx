@@ -49,7 +49,9 @@ function ProjectContent({
           <>
             <p>{t(whatLearnText)}</p>
             <br />
-            <h2>{t("General.iveLearned")}</h2>
+            <h2 className={t(whatLearnText) === "" ? "hidden" : ""}>
+              {t("General.iveLearned")}
+            </h2>
             <ul className="list-disc ml-5">
               {whatLearnPoints.map((point, index) => (
                 <li key={index}>{t(point)}</li>

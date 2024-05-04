@@ -38,8 +38,8 @@ function Befama() {
         challange="Projects.Befama.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
             <TypeScriptIcon />
+            <ReactIcon />
             <NextJsIcon />
             <FramerMotionIcon />
             <TailwindIcon />
@@ -51,6 +51,7 @@ function Befama() {
           "Projects.Befama.whatLearn.whatLearnPoints.second",
           "Projects.Befama.whatLearn.whatLearnPoints.third",
           "Projects.Befama.whatLearn.whatLearnPoints.fourth",
+          "Projects.Befama.whatLearn.whatLearnPoints.fifth",
         ]}
       />
     </>

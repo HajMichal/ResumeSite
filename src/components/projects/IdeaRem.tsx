@@ -10,6 +10,7 @@ import {
   ReactRouterIcon,
   PrismaIcon,
   TrpcIcon,
+  AwsIcon,
 } from "@/icons";
 
 const Slider = dynamic(() => import("@/components/Slider"));
@@ -43,13 +44,13 @@ function IdeaRem() {
         challange="Projects.Calculator.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
             <TypeScriptIcon />
-            <FramerMotionIcon />
+            <ReactIcon />
             <TailwindIcon />
             <NextJsIcon />
             <PrismaIcon />
             <TrpcIcon />
+            <AwsIcon />
           </div>
         }
         whatLearnText="Projects.Calculator.whatLearn.text"
@@ -58,6 +59,7 @@ function IdeaRem() {
           "Projects.Calculator.whatLearn.whatLearnPoints.second",
           "Projects.Calculator.whatLearn.whatLearnPoints.third",
           "Projects.Calculator.whatLearn.whatLearnPoints.fourth",
+          "Projects.Calculator.whatLearn.whatLearnPoints.fifth",
         ]}
       />
     </>

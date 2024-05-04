@@ -40,8 +40,8 @@ function Chatapp() {
         challange="Projects.Chatapp.challange"
         techStack={
           <div className="flex flex-wrap gap-5 mt-2">
-            <ReactIcon />
             <TypeScriptIcon />
+            <ReactIcon />
             <FramerMotionIcon />
             <TailwindIcon />
             <ReactRouterIcon />
@@ -55,6 +55,7 @@ function Chatapp() {
           "Projects.Chatapp.whatLearn.whatLearnPoints.second",
           "Projects.Chatapp.whatLearn.whatLearnPoints.third",
           "Projects.Chatapp.whatLearn.whatLearnPoints.fourth",
+          "Projects.Chatapp.whatLearn.whatLearnPoints.fifth",
         ]}
       />
     </>

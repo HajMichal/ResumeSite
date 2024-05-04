@@ -79,8 +79,17 @@ function TimeLineComponent({ active, setActive }: TimeLineComponentProps) {
             onClick={() => setActive(index)}
             key={index}
           >
-            <Text c="dimmed" size="sm">
+            <Text c="dimmed" size="sm" className="flex">
               {t(project.shortDesc)}
+              {index === 3 && (
+                <img
+                  src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.gif"
+                  alt="🌟"
+                  width="20"
+                  height="20"
+                  className="h-min -mt-5"
+                />
+              )}
             </Text>
             <Text size="xs" mt={4} c={"white"}>
               {project.date}

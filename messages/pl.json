@@ -1,98 +1,112 @@
 {
-    "Home": {
-        "Navigation": {
-            "home": "Home",
-            "about": "O mnie",
-            "skills": "Umiejętności",
-            "portfolio": "Portfolio",
-            "resume": "Dokumenty",
-            "contact": "Kontakt"
-        },
-        "Header": {
-            "title": "Miło cię widzieć!",
-            "iam": "Nazywam się ",
-            "description": "jestem Full Stack developerem specjalizującym się głównie w technologiach JavaScript`owych"
-        }
+  "Home": {
+    "Navigation": {
+      "home": "Home",
+      "about": "O mnie",
+      "skills": "Umiejętności",
+      "portfolio": "Portfolio",
+      "resume": "Dokumenty",
+      "contact": "Kontakt"
     },
-    "Portfolio": {
-        "Projects": {
-            "Befama": {
-                "title": "Strona wizytówka dla firmy z branży włókienniczej",
-                "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
-                "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
-                "whatLearn": {
-                    "text": "Projekt ten jest kamieniem milowym w mojej karierze programisty. Dodał mi wiatru w skrzydła, sprawił, że uwierzyłem w swoje umiejętności, a przy okazji mogłem współpracować z świetnymi ludźmi.",
-                    "whatLearnPoints": {
-                        "first": "jak pozycjonować strony w internecie (podstawy SEO)",
-                        "second": "mechaniki i18n",
-                        "third": "jak tworzyć responsywne strony",
-                        "fourth": "korzystania z TailwindCSS"
-                    }
-                }
-            },
-            "Chatapp": {
-                "title": "Aplikacja oferująca chat w czasie rzeczywistym",
-                "desc": "",
-                "challange": "",
-                "whatLearn": {
-                    "first": "",
-                    "second": "",
-                    "third": "",
-                    "fourth": ""
-                }
-            },
-            "Selleo": {
-                "title": "Praktyki jako React Developer",
-                "desc": "",
-                "challange": "",
-                "whatLearn": {
-                    "first": "",
-                    "second": "",
-                    "third": "",
-                    "fourth": ""
-                }
-            },
-            "Calculator": {
-                "title": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
-                "desc": "",
-                "challange": "",
-                "whatLearn": {
-                    "first": "",
-                    "second": "",
-                    "third": "",
-                    "fourth": ""
-                }
-            },
-            "Revan": {
-                "title": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
-                "desc": "",
-                "challange": "",
-                "whatLearn": {
-                    "first": "",
-                    "second": "",
-                    "third": "",
-                    "fourth": ""
-                }
-            },
-            "Elearn": {
-                "title": "Platforma e-learningowa dla handlowców",
-                "desc": "",
-                "challange": "",
-                "whatLearn": {
-                    "first": "",
-                    "second": "",
-                    "third": "",
-                    "fourth": ""
-                }
-            }
-        },
-        "General": {
-            "desc": "Opis",
-            "challange": "Wyzwanie",
-            "techStack": "Tech Stack",
-            "whatLearn": "Czego się nauczyłem",
-            "iveLearned": "Nauczyłem się:"
-        }
-
+    "Header": {
+      "title": "Miło cię widzieć!",
+      "iam": "Nazywam się ",
+      "description": "jestem Full Stack developerem specjalizującym się głównie w technologiach JavaScript`owych"
     }
+  },
+  "Portfolio": {
+    "Projects": {
+      "Befama": {
+        "title": "Strona wizytówka dla firmy z branży włókienniczej",
+        "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
+        "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
+        "whatLearn": {
+          "text": "Projekt ten jest kamieniem milowym w mojej karierze programisty. Dodał mi wiatru w skrzydła, sprawił, że uwierzyłem w swoje umiejętności, a przy okazji mogłem współpracować z świetnymi ludźmi.",
+          "whatLearnPoints": {
+            "first": "jak pozycjonować strony w internecie (podstawy SEO)",
+            "second": "mechaniki i18n",
+            "third": "jak tworzyć responsywne strony",
+            "fourth": "korzystania z TailwindCSS",
+            "fifth": "praca z TypeScriptem"
+          }
+        }
+      },
+      "Chatapp": {
+        "title": "Aplikacja oferująca chat w czasie rzeczywistym",
+        "desc": "Po stworzeniu konta i zalogowaniu się mamy mozliwość pisania wiadomości z przyjaciółmi, których mozemy dodawać lub usuwać z listy znajomych. Napisałem tą aplikację w celu nauczenia się i zrozumienie działania web socketów.  ",
+        "challange": "Wyzwaniem tego projektu było korzystanie z web socketów, poniewaz nigdy wcześniej nie miałem okazji z nich korzystać, a działają one zupełnie inaczej niz dotychczasowe api, które pisałem ",
+        "whatLearn": {
+          "text": "",
+          "whatLearnPoints": {
+            "first": "web-sockets",
+            "second": "podstaw expressJS",
+            "third": "połączenia strony klienckiej z backendową",
+            "fourth": "korzystanie z ORM - prisma",
+            "fifth": "praca z TypeScriptem"
+          }
+        }
+      },
+      "Selleo": {
+        "title": "Praktyki jako React Developer",
+        "desc": "Będąc na wakacjach dostałem informację, ze dostałem się na miesięczne praktyki do Selleo, czyli pionierskiej firmy IT w moim rodzinnym mieście. Akurat wcześniej uczestniczyłem w organizowanych przez nich 'CoderDojo', w których menotrzy uczyli nas programowania (wtedy akurat JS'a oraz React'a). Na praktykach przerabialiśmy wewnętrzną aplikację do monitorowania godzin pracy pracowników tej firmy.",
+        "challange": "Największym wyzwaniem była praca w duzym 13-osobowym zespole praktykantów. Często mieliśmy wiele konfliktów, podczas commitowania zmian w aplikacji. Pierwszy raz pracowałem z kodem napisanym przez kogoś innego, co było ciekawym i wartym nauczenia się doświadczeniem.",
+        "whatLearn": {
+          "text": "Poza praktyczną wiedzą z React'a, czy korzystania z narzędzia GIT, nauczyłem się na czym polega Agailowa metoda pracy oraz czym rózni się od Waterfall'owego podejścia. Zobaczyłem takze, jak pracuje się w duzym zespole",
+          "whatLearnPoints": {
+            "first": "pracy z GIT'em",
+            "second": "pracy zespołowej"
+          }
+        }
+      },
+      "Calculator": {
+        "title": "Komercyjny projekt kalkulatora do tworzenia wycen instalacji OZE",
+        "desc": "Jest to najbardziej dopracowany oraz rozwinięty projekt jaki zrobiłem do tej pory, na co dzień korzystają z niego dziesiątki osób. Wcześniejsze kalkulatory były napisane w excell'u, co było trudne w utrzymaniu, ponieważ ciężko było utrzymać jedną wersję kalkulatora u wszystkich pracowników. Teraz jest jedna platforma, do której każdy pracownik ma przypisane swoje konto handlowca, bądź menagera. Cała aplikacja podzielona jest na 6 kalkulatorów do różnych instlacjii odnawialnych źródeł energii. Po zakończonej wycenie dla klienta generowanana jest wycena w formacie PDF. Administrator lub menager ma możliwość stworzenia nowych kont, nałożenia na nie prowizjii, dzięki której zarabiają. Administrator jest w stanie zmienić ceny poszczególnych elementów instalacji dla każdego menagera i pracujących pod nim handlowców, dzięki czemu ma pełną kontrolę nad cenami w kalkulatorach. Poza tym administrator może dodawać aktualności ze świata OZE oraz pliki, które handlowiec musi dołączyć do wyceny dla klienta.",
+        "challange": "Projekt ten składał się z samych wyzwań zaczynając od optymalizacji, przez zaprojektowanie prostego dla użytkownika UI/UX, po podłącznie bazy danych. Starałem się, żeby kod był jak najbardziej czytelny dla kogoś kto pierwszy raz ma z nim styczość, co jest bardzo ciężkim zadaniem przy większych projektach.",
+        "whatLearn": {
+          "text": "Praca nad tym projektem była niesamowitym doświadczeniem. Przede wszystkim nauczyłem się pracy z klientem, pracy pod presją czasu, musiałem nauczyć się panować nad stresem i mimo tego trzeźwo myśleć podczas pisania kodu. Nauczyłem się także jak dobrze organizować pracę, żeby szła ona sprawniej.",
+          "whatLearnPoints": {
+            "first": "pracy z klientem",
+            "second": "optymalizacji apliakcji",
+            "third": "pracy z AWS",
+            "fourth": "pracy z TRPC",
+            "fifth": "pracy z state menagerem"
+          }
+        }
+      },
+      "Revan": {
+        "title": "Serwis internetowy z ogłoszeniami nieruchomości do renowacji",
+        "desc": "Serwis internetowy, na którym użytkownicy mogą wystawić swój dom/mieszkanie lub jego część do renowacji. Osoba mająca konto wykonawcy może zarezerwować takie ogłoszenie dla siebie. Planuje dodać możliwość wystawiania opinii dla konkretnego wykonawcy oraz chat między użytkownikiem, a wykonawcą. Robię ten projekt w celu nauczenia się framework'a nestJS, który w mojej opinii będzie prężnie przejmował node'owe backendy w branży. Część frontend'ową robię strikte w celu przećwiczenia tworzenia interfejsów w React'cie. Oczywiście aplikacja jest w pełni responsywna. Posiada 2 kolorystyki do wyboru: ciemną oraz jasną",
+        "challange": "Wyzwaniem było nauka NestJs od 0 na podstawie dokumentacji, chciałem sttworzyć api z najlepszymi wzorcami projektowymi. W części frontend'owej postawiłem na stylowanie w SaSS, co też było dla mnie nowością",
+        "whatLearn": {
+          "text": "",
+          "whatLearnPoints": {
+            "first": "najpszych praktyk pisania kodu w NesJS",
+            "second": "stylowania aplikacji za pomocą SaSS",
+            "third": "tworzenia aplikacji z wyborem motywu"
+          }
+        }
+      },
+      "Elearn": {
+        "title": "Platforma e-learningowa dla handlowców",
+        "desc": "Projekt ten jest na początku realizacji, gdy zostanie skończony opiszę go tutaj dokładnie",
+        "challange": "",
+        "whatLearn": {
+          "text": "",
+          "whatLearnPoints": {
+            "first": "",
+            "second": "",
+            "third": "",
+            "fourth": ""
+          }
+        }
+      }
+    },
+    "General": {
+      "desc": "Opis",
+      "challange": "Wyzwanie",
+      "techStack": "Tech Stack",
+      "whatLearn": "Czego się nauczyłem",
+      "iveLearned": "Nauczyłem się:"
+    }
+  }
 }
