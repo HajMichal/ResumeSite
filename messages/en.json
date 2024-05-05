@@ -14,6 +14,13 @@
             "description": "Full Stack developer specializing mainly in JavaScript technology"
         }
     },
+    "About": {
+        "firstText": "I have been an active sportsman since I was child. I started playing soccer when I turned 6, so I decided to develop my hobby in sports clubs. It lasted untill I was 16 years old. Today I would be playing in the best English or Spanish teams if it were not an injury in the `94th... Of course, it's just a joke",
+        "secondText": "When my soccer career ended I decided to pick up a whistle and try my best as soccer referee, which I was through the next 2 years. Then I started training at the gym, where I was interested in powerlifting, but due to fear of injury or other side effects of lifting heavy weights, I have decided to abandon this sport.",
+        "thirdText": "",
+        "fourthText": "",
+        "fifthText": ""
+    },
     "Portfolio": {
         "Projects": {
             "Befama": {
@@ -69,5 +76,8 @@
             "whatLearn": "What I've learned",
             "iveLearned": "I've leanred:"
         }
+    },
+    "Documents": {
+        "download": "download"
     }
 }

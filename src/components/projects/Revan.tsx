@@ -19,7 +19,16 @@ const Slider = dynamic(() => import("@/components/Slider"));
 function Revan() {
   return (
     <>
-      <Slider imagesUrls={[]} className="max-w-[800px]" withControls />
+      <Slider
+        imagesUrls={[
+          "/projects/revan/revan.webp",
+          "/projects/revan/revan2.webp",
+          "/projects/revan/revan3.webp",
+          "/projects/revan/revan4.webp",
+        ]}
+        className="max-w-[800px]"
+        withControls
+      />
       <ProjectContent
         title="Projects.Revan.title"
         links={[

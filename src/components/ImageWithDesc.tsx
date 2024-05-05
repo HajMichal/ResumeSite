@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface ImageWithDescProps {
@@ -12,6 +13,7 @@ function ImageWithDesc({
   description,
   photoOnRight = false,
 }: ImageWithDescProps) {
+  const t = useTranslations("About");
   return (
     <div
       className={`flex flex-col justify-center laptop:flex-row items-center max-w-[70vw] gap-4 mt-20`}
@@ -26,7 +28,7 @@ function ImageWithDesc({
         />
       )}
       <p className="text-justify min-w-[60%] text-md tablet:text-lg laptp:text-xl desktop:text-2xl">
-        {description}
+        {t(description)}
       </p>
       {photoOnRight && (
         <Image
