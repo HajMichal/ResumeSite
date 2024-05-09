@@ -82,15 +82,30 @@
       },
       "Revan": {
         "shortDesc": "Web service with advertisements of buildings to renovate",
-        "desc": "",
-        "challange": "",
-        "whatLearn": ""
+        "desc": "Web service, where users can advertise their estate or part of it to renovation. Person with contractor account can book advertisement. I'm planning to add rating system and chat between user and contractor. I'm creating this project to learn the nestJS framework, which I think will take over node projects. Frontend side I'm doing only to excercise creating React interfaces. App is fully responsive and has 2 themes to choose: dark and light ",
+        "challange": "The challange was to learn NestJs from 0 based on documentation. I wanted to create an api with the best project patterns. At frontend I decided to style in SaSS, what was something new for me",
+        "whatLearn": {
+            "text": "",
+            "whatLearnPoints": {
+              "first": "best practice to write code in NestJs",
+              "second": "write styling in SaSS",
+              "third": "create app with themes to choose"
+            }
+          }
       },
       "Elearn": {
         "shortDesc": "E-learning platform for salesmans",
-        "desc": "",
-        "challange": "",
-        "whatLearn": ""
+        "desc": "This project is at the beginning of implementation. When I finish it I will describe it here.",
+        "challange": "soon",
+        "whatLearn": {
+            "text": "soon",
+            "whatLearnPoints": {
+              "first": "",
+              "second": "",
+              "third": "",
+              "fourth": ""
+            }
+          }
       }
     },
     "General": {

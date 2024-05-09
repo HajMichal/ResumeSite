@@ -46,7 +46,7 @@
           "text": "",
           "whatLearnPoints": {
             "first": "web-sockets",
-            "second": "podstaw expressJS",
+            "second": "expressJS",
             "third": "połączenia strony klienckiej z backendową",
             "fourth": "korzystanie z ORM - prisma",
             "fifth": "praca z TypeScriptem"
@@ -96,9 +96,9 @@
       "Elearn": {
         "title": "Platforma e-learningowa dla handlowców",
         "desc": "Projekt ten jest na początku realizacji, gdy zostanie skończony opiszę go tutaj",
-        "challange": "",
+        "challange": "wkrótce",
         "whatLearn": {
-          "text": "",
+          "text": "wkrótce",
           "whatLearnPoints": {
             "first": "",
             "second": "",
