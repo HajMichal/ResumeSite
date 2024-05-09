@@ -3,10 +3,6 @@ import ProjectContent from "../ProjectContent";
 import {
   ReactIcon,
   TypeScriptIcon,
-  NextJsIcon,
-  FramerMotionIcon,
-  TailwindIcon,
-  ExpressIcon,
   ReactRouterIcon,
   PrismaIcon,
   SassIcon,
@@ -22,6 +18,7 @@ function Revan() {
       <Slider
         imagesUrls={[
           "/projects/revan/revan.webp",
+          "/projects/revan/revanAPI.webp",
           "/projects/revan/revan2.webp",
           "/projects/revan/revan3.webp",
           "/projects/revan/revan4.webp",
