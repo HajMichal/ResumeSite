@@ -34,27 +34,51 @@
             "second": "i18n workflow",
             "third": "how to create responsive website",
             "fourth": "TailwindCSS usage",
-            "fifth": "Typescirpt usage"
+            "fifth": "TypeScript usage"
           }
         }
       },
       "Chatapp": {
         "shortDesc": "Application for real time chat",
-        "desc": "",
-        "challange": "",
-        "whatLearn": ""
+        "desc": "Since we have created account and we are logged in we have abillity to send text messages to our friends, whom we can add or remove from friends list. I created this application to learn how web-sockets work.",
+        "challange": "Web-sockets work very differently from the rest APIs I coded before. So the biggest challenge was using these web-sockets and following good practices",
+        "whatLearn": {
+          "text": "",
+          "whatLearnPoints": {
+            "first": "web-sockets",
+            "second": "ExpressJS",
+            "third": "connect frontend with backend",
+            "fourth": "Prisma ORM usage",
+            "fifth": "TypeScript usage"
+          }
+        }
       },
       "Selleo": {
         "shortDesc": "Intership as React Developer",
-        "desc": "",
-        "challange": "",
-        "whatLearn": ""
+        "desc": "I got in a monthly interships to Selleo, what is one of the biggest IT comapnies in my hometown. Previously I was participant of 'CoderDojo' organized by this comapny where mentors teach us how to create code in React and JS. The main goal of this interships was to refactor entire app where emplyees can monitor thier hours worked",
+        "challange": "The greates challenge was working with a huge team of 13 interns. During the first few days we had many conflicts, when we try to commit some changes in app. It was my firsr time I worked with other people on a single project, what was an interesting and valuable experience.",
+        "whatLearn": {
+          "text": "Beside practical knowledge about React, or working with GIT, I learned what an Agile workflow is and how it differs from a Waterfall workflow.",
+          "whatLearnPoints": {
+            "first": "GIT usage",
+            "second": "teamwork"
+          }
+        }
       },
       "Calculator": {
         "shortDesc": "Commercial calculator project for pricing a RES installtions",
-        "desc": "",
-        "challange": "",
-        "whatLearn": ""
+        "desc": "This is the most refined and developed FullStack project I have made. Dozenos of people are using this calcualtor every day. Eariler calculators was written in excel what brings a lot of issues (f.e. it was hard to mainatin or keep one version). For now is one platform, where each salesman or menager has his own account.  The entire application is splitted among 6 calculators for different RES installations. Once the calculations are successfully completed, a PDF quote is generated for the customer. Admin or menager has the ability to create an accounts and charge the commissions, thanks to which they can earn money. Commision included in the menager by admin passes to any salesman working for that menager. Only admin has ability to change prices of each installation part for any menager and working for him salesmans. Thanks to this admin has fully controll over the installation prices. Beside that admin can add news from RES world, important documents to download, when someone makes a quote.",
+        "challange": "This project consisted of unending challenges starts from optimization, through design simple user UI/UX to make database connection. I tried to make the design as readable as possible, which wasn't easy looking at the scale of the project.",
+        "whatLearn": {
+          "text": "Work on this project was an extraordinary experience. First of all I gained experience how to work with client, how to work under time pressure. I also learned how to organize my work so that it runs more smoothly. ",
+          "whatLearnPoints": {
+            "first": "work with client",
+            "second": "app optimization",
+            "third": "AWS usage",
+            "fourth": "TRPC usage",
+            "fifth": "state menager usage"
+          }
+        }
       },
       "Revan": {
         "shortDesc": "Web service with advertisements of buildings to renovate",
