@@ -1,10 +1,17 @@
+"use client";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import Slider from "@/components/Slider";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="h-full flex flex-col tablet:flex-row tablet:h-screen">
+    <motion.div
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+      className="h-full flex flex-col tablet:flex-row tablet:h-screen"
+    >
       <Sidebar />
       <div className="flex justify-center w-full items-center flex-col desktop:flex-row">
         <Header />
@@ -14,6 +21,6 @@ export default function Home() {
           withIndicators
         />
       </div>
-    </main>
+    </motion.div>
   );
 }

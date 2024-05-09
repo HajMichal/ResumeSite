@@ -7,7 +7,9 @@ import NavigationDropdown from "./NavigationDropdown";
 function Navbar() {
   const t = useTranslations("Home.Navigation");
   return (
-    <div className={`w-screen z-[99999] flex justify-between pr-4`}>
+    <div
+      className={`w-screen z-[20] flex justify-between pr-4 fixed bg-background top-0`}
+    >
       <Link href={"/"} className="text-4xl font-jersey tracking-wide p-2">
         Michal Haj
       </Link>

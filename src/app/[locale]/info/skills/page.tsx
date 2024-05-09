@@ -1,5 +1,5 @@
+"use client";
 import SkillsTile from "@/components/SkillsTile";
-
 import {
   AwsIcon,
   CsharpIcon,
@@ -26,10 +26,16 @@ import {
   VscIcon,
 } from "@/icons";
 import { NestJsIcon } from "@/icons/nestjs";
+import { motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div className="w-full flex justify-center items-center mt-10">
+    <motion.div
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+      className="w-full flex justify-center items-center pt-20"
+    >
       <div className="w-full h-full tablet:w-[80vw] tablet:h-[90vh] grid grid-rows-4 tablet:grid-cols-2 tablet:grid-rows-2">
         <SkillsTile title="TECHNOLOGIES" borderType="border-r  border-b">
           <>
@@ -72,7 +78,7 @@ function Skills() {
           </>
         </SkillsTile>
       </div>
-    </div>
+    </motion.div>
   );
 }
 export default Skills;

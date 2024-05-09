@@ -1,6 +1,7 @@
 "use client";
 import InfoCard from "@/components/InfoCard";
 import { IconPhone, IconMailHeart, IconBrandGithub } from "@tabler/icons-react";
+import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 
 // --TODO: add some animation when user hover a card,
@@ -18,7 +19,12 @@ function Contact() {
     });
   };
   return (
-    <div className="flex justify-center items-center w-full h-[90vh]">
+    <motion.div
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+      className="flex justify-center items-center w-full h-[90vh]"
+    >
       <div className="w-full h-[80vh] tablet:h-[60vh] bg-secondaryBackground flex flex-wrap justify-evenly items-center">
         <InfoCard
           Icon={IconPhone}
@@ -41,7 +47,7 @@ function Contact() {
           onClick={handleCopyData}
         />
       </div>
-    </div>
+    </motion.div>
   );
 }
 

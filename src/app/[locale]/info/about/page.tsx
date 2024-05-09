@@ -1,10 +1,17 @@
+"use client";
 import ImageWithDesc from "@/components/ImageWithDesc";
+import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="mb-32 flex flex-col items-center">
+    <motion.div
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+      className="flex flex-col items-center h-full"
+    >
       <ImageWithDesc
-        maxWidth="500"
+        maxWidth="700"
         url="/myPhotos/team.png"
         description="firstText"
       />
@@ -14,8 +21,7 @@ function About() {
         url="/myPhotos/soccer.png"
         description="secondText"
       />
-
-      <div className="w-[95%] h-60 my-20 bg-fixed bg-parallax bg-cover" />
+      <div className="w-[95%] h-60 bg-fixed my-20 bg-parallax bg-cover" />
       <ImageWithDesc
         maxWidth="500"
         url="/myPhotos/hobby.png"
@@ -28,11 +34,11 @@ function About() {
         description="fourthText"
       />
       <ImageWithDesc
-        maxWidth="700"
+        maxWidth="300"
         url="/landscape/project.png"
         description="fifthText"
       />
-    </div>
+    </motion.div>
   );
 }
 export default About;
