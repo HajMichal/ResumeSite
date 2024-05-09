@@ -1,83 +1,83 @@
 {
-    "Home": {
-        "Navigation": {
-            "home": "Home",
-            "about": "About me",
-            "skills": "Skills",
-            "portfolio": "Portfolio",
-            "resume": "Resume",
-            "contact": "Contact"
-        },
-        "Header": {
-            "title": "Good to see you!",
-            "iam": "I am ",
-            "description": "Full Stack developer specializing mainly in JavaScript technology"
-        }
+  "Home": {
+    "Navigation": {
+      "home": "Home",
+      "about": "About me",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "resume": "Resume",
+      "contact": "Contact"
     },
-    "About": {
-        "firstText": "I have been an active sportsman since I was child. I started playing soccer when I turned 6, so I decided to develop my hobby in sports clubs. It lasted untill I was 16 years old. Today I would be playing in the best English or Spanish teams if it were not an injury in the `94th... Of course, it's just a joke",
-        "secondText": "When my soccer career ended I decided to pick up a whistle and try my best as soccer referee, which I was through the next 2 years. Then I started training at the gym, where I was interested in powerlifting, but due to fear of injury or other side effects of lifting heavy weights, I have decided to abandon this sport.",
-        "thirdText": "",
-        "fourthText": "",
-        "fifthText": ""
-    },
-    "Portfolio": {
-        "Projects": {
-            "Befama": {
-                "title": "A 'showcase' type website a company in the fiber industry",
-                "shortDesc": "Strona wizytówka dla firmy z branży włókienniczej",
-                "desc": "Strona Befamy była moim pierwszym komercyjnym projektem, który udało mi się sprawnie zrealizować. Głównym założeniem strony było przedstawienie maszyn jakie firma jest w stanie zkonstrułować. Dodatkowo pojawił się formularz kontaktowy, przestawienie usług jakie firma oferuje, czy zakładka karier. Strona ta jest w pełni responsywna od małych telefonów do dużych monitorów. Podzielona jest na 4 języki.",
-                "challange": "Jak wiadomo strony 'wizytówki' bazują na dużej ilości zdjęć w dobrej jakości. Niestety w tym przypadku miałem bardzo mało zdjęć, a jeżeli już były to w złej jakości. Musiałem polubić się z photoshopem oraz wziąć to pod uwagę podczas tworzenia designu całej witryny. Pomniejszymi wyzwaniami było wykonanie perfekcyjnej responsywności oraz podzielenie aplikacji na różne wersje językowe.",
-                "whatLearn": {
-                    "text": "Projekt ten jest kamieniem milowym w mojej karierze programisty. Dodał mi wiatru w skrzydła, sprawił, że uwierzyłem w swoje umiejętności, a przy okazji mogłem współpracować z świetnymi ludźmi.",
-                    "whatLearnPoints": {
-                        "first": "jak pozycjonować strony w internecie (podstawy SEO)",
-                        "second": "mechaniki i18n",
-                        "third": "jak tworzyć responsywne strony",
-                        "fourth": "korzystania z TailwindCSS"
-                    }
-                }
-            },
-            "Chatapp": {
-                "shortDesc": "Application for real time chat",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
-            },
-            "Selleo": {
-                "shortDesc": "Intership as React Developer",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
-            },
-            "Calculator": {
-                "shortDesc": "Commercial calculator project for pricing a RES installtions",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
-            },
-            "Revan": {
-                "shortDesc": "Web service with advertisements of buildings to renovate",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
-            },
-            "Elearn": {
-                "shortDesc": "E-learning platform for salesmans",
-                "desc": "",
-                "challange": "",
-                "whatLearn": ""
-            }
-        },
-        "General": {
-            "desc": "Description",
-            "challange": "Challange",
-            "techStack": "Tech Stack",
-            "whatLearn": "What I've learned",
-            "iveLearned": "I've leanred:"
-        }
-    },
-    "Documents": {
-        "download": "download"
+    "Header": {
+      "title": "Good to see you!",
+      "iam": "I am ",
+      "description": "Full Stack developer specializing mainly in JavaScript technology"
     }
+  },
+  "About": {
+    "firstText": "I have been an active sportsman since I was child. I started playing soccer when I turned 6, so I decided to develop my hobby in sports clubs. It lasted untill I was 16 years old. Today I would be playing in the best English or Spanish teams if it were not an injury in the `94th... Of course, it's just a joke",
+    "secondText": "When my soccer career ended I decided to pick up a whistle and try my best as soccer referee, which I was through the next 2 years. Then I started training at the gym, where I was interested in powerlifting, but due to fear of injury or other side effects of lifting heavy weights, I have decided to abandon this sport.",
+    "thirdText": "I have started interesting in Programming at the end of middle school. Then I decided to develop myself as Programmer. Every day I expanded my knowledge in Python, HTML, CSS and JavaScript. In the meantime I discovered React, which I fall in love, beacuse of the JSX, hooks and code readability ",
+    "fourthText": "When I gained sufficient knowledge, me and my close friend started offering our services to local companies with outdated or without websites. We offered to create website almost for free just to expand our portfolios. This is how our first commercial projects were created 🏆 🏆",
+    "fifthText": "Over time I have been able to get better, more complex projects to work with. Prime example is a calculator for creating quotes for renewable energy installations. More about this project can be found in /Portfolio tab."
+  },
+  "Portfolio": {
+    "Projects": {
+      "Befama": {
+        "title": "A 'showcase' type website a company in the fiber industry",
+        "desc": "Website for Befama was my first commercial project, which I made. The main goal was to present all machines offered by the comapny. There is also contact form, present services and carrer tab. The site is fully responsive from small phones to large desktops and it's divided for 4 languages.",
+        "challange": "As we already known showcase page base on images with excellent quality. The problem was I had very few pictures, and even if I did, they were not of good quality. I had to like photoshop and think about it when I was designing entire website. Minor challanges was to make perfect responsivness and split the site into 4 languages.",
+        "whatLearn": {
+          "text": "This project is a milestone in my programming career. He made me belive in my abilites and at the same time I could work with cool people.",
+          "whatLearnPoints": {
+            "first": "how to position website on the internet (SEO basics)",
+            "second": "i18n workflow",
+            "third": "how to create responsive website",
+            "fourth": "TailwindCSS usage",
+            "fifth": "Typescirpt usage"
+          }
+        }
+      },
+      "Chatapp": {
+        "shortDesc": "Application for real time chat",
+        "desc": "",
+        "challange": "",
+        "whatLearn": ""
+      },
+      "Selleo": {
+        "shortDesc": "Intership as React Developer",
+        "desc": "",
+        "challange": "",
+        "whatLearn": ""
+      },
+      "Calculator": {
+        "shortDesc": "Commercial calculator project for pricing a RES installtions",
+        "desc": "",
+        "challange": "",
+        "whatLearn": ""
+      },
+      "Revan": {
+        "shortDesc": "Web service with advertisements of buildings to renovate",
+        "desc": "",
+        "challange": "",
+        "whatLearn": ""
+      },
+      "Elearn": {
+        "shortDesc": "E-learning platform for salesmans",
+        "desc": "",
+        "challange": "",
+        "whatLearn": ""
+      }
+    },
+    "General": {
+      "desc": "Description",
+      "challange": "Challange",
+      "techStack": "Tech Stack",
+      "whatLearn": "What I've learned",
+      "iveLearned": "I've leanred:"
+    }
+  },
+  "Documents": {
+    "download": "download"
+  }
 }
