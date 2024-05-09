@@ -6,10 +6,6 @@ interface AllProjectsProps {
   active: number;
 }
 
-//
-// [TODO]:
-//         translate to eng
-
 const Chatapp = dynamic(() => import("./projects/Chatapp"), {
   loading: () => <Loading />,
 });

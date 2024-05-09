@@ -2,11 +2,12 @@
 
 import { Menu } from "@mantine/core";
 import { IconBurger } from "@tabler/icons-react";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import { navOptions } from "./Sidebar";
 
 function NavigationDropdown() {
   const router = useRouter();
+  const { locale } = useParams();
 
   return (
     <div className="flex cursor-pointer mr-2 items-center laptop:hidden">
@@ -21,7 +22,7 @@ function NavigationDropdown() {
         <Menu.Dropdown style={{ backgroundColor: "#1d1d1d" }}>
           {navOptions.map((navi, index) => (
             <Menu.Item
-              onClick={() => router.push(navi.href)}
+              onClick={() => router.replace(`/${locale}/${navi.href}`)}
               color="white"
               leftSection={navi.icon}
               key={index}

@@ -12,7 +12,7 @@ function Navbar() {
         Michal Haj
       </Link>
       <div className="gap-10 items-center text-xl overflow-hidden hidden laptop:flex">
-        {navOptions?.map((navi) => (
+        {navOptions.map((navi) => (
           <Link
             key={navi.href}
             href={navi.href}
