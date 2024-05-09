@@ -1,4 +1,3 @@
-import Dropdown from "./Dropdown";
 import dynamic from "next/dynamic";
 
 import {
@@ -10,6 +9,7 @@ import {
   IconDeviceLaptop,
 } from "@tabler/icons-react";
 import { Link } from "@/navigation";
+import LanguageDropdown from "./LanguageDropdown";
 
 const DesktopNavigation = dynamic(() => import("./desktop/Navigation"));
 const MobileNavigation = dynamic(() => import("./mobile/Navigation"));
@@ -21,7 +21,7 @@ function Sidebar() {
         <Link className="text-4xl font-jersey tracking-wide p-2" href={"/"}>
           Michal Haj
         </Link>
-        <Dropdown isAbsolute />
+        <LanguageDropdown isAbsolute />
         <DesktopNavigation />
         <MobileNavigation />
       </div>

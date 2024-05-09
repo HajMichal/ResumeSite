@@ -4,10 +4,10 @@ import { Menu } from "@mantine/core";
 import { IconPlanet } from "@tabler/icons-react";
 import { useRouter } from "next/navigation";
 
-interface DropdownProps {
+interface LanguageDropdownProps {
   isAbsolute?: boolean;
 }
-function Dropdown({ isAbsolute = false }: DropdownProps) {
+function LanguageDropdown({ isAbsolute = false }: LanguageDropdownProps) {
   const router = useRouter();
 
   return (
@@ -48,4 +48,4 @@ function Dropdown({ isAbsolute = false }: DropdownProps) {
     </div>
   );
 }
-export default Dropdown;
+export default LanguageDropdown;
