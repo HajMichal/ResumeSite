@@ -4,12 +4,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <motion.div
-      initial={{ y: "-200vh" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 1 }}
-      className="flex flex-col items-center h-full"
-    >
+    <motion.div className="flex flex-col items-center h-full">
       <ImageWithDesc
         maxWidth="700"
         url="/myPhotos/team.png"

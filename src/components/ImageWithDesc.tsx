@@ -1,8 +1,14 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
+
+const boxVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5, delay: 0.2 } },
+  hidden: { opacity: 0, scale: 0 },
+};
 
 interface ImageWithDescProps {
   url: string;
@@ -18,22 +24,26 @@ function ImageWithDesc({
 }: ImageWithDescProps) {
   const t = useTranslations("About");
 
+  const control = useAnimation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true });
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <div className="h-screen flex items-center">
       <motion.div
+        ref={ref}
+        variants={boxVariant}
+        initial="hidden"
+        animate={control}
         className={`flex flex-col justify-center laptop:flex-row items-center max-w-[70vw] gap-4`}
-        initial={{
-          opacity: 0,
-        }}
-        whileInView={{
-          opacity: 1,
-          transition: {
-            delay: 0.5,
-          },
-        }}
-        viewport={{
-          once: true,
-        }}
       >
         {!photoOnRight && (
           <Image
@@ -44,9 +54,9 @@ function ImageWithDesc({
             className={`w-full h-auto max-w-[${maxWidth}px] object-cover`}
           />
         )}
-        <motion.p className="text-justify min-w-[60%] text-md tablet:text-lg laptp:text-xl desktop:text-2xl">
+        <p className="text-justify min-w-[60%] text-md tablet:text-lg laptp:text-xl desktop:text-2xl">
           {t(description)}
-        </motion.p>
+        </p>
         {photoOnRight && (
           <Image
             src={url}
